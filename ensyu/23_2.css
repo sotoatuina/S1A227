@@ -37,5 +37,33 @@ input[type="text"].textarea{
     width:100%;
     padding: 10px;
     border-radius: 5px;
-
 }
+.job{margin-right: .8em;}
+select{
+    background: #fff;
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+textarea{height: 5em;}
+.btn{text-align: center;}
+input[type="submit"]{
+    background: #00a;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 14px;
+}
+@media screen and (max-width:768px){
+    .fontltem{display: block;}
+    dt{
+        text-align: left;
+        margin-bottom: 4px;
+    }
+    dd{margin-left: 0;}
+    .job{margin-right: 8em;}
+}
+
