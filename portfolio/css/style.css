@@ -211,13 +211,13 @@ li {
   display: inline-block;
   max-width: 180px;
   text-align: center;
-  background-color: #293b6a;
+  background-color: #000000de;
   font-size: 16px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
-  border: 1px dashed #FFF;
+  border: 1px dashed rgb(252, 252, 252);
   box-shadow: 0px 0px 0px 2px #293b6a;/* box-shadowで外枠を */
 }
 
@@ -230,13 +230,13 @@ li {
   max-width: 180px;
   height:50px;
   text-align: center;
-  background-color: #9ec34b;
+  background-color: #000000;
   font-size: 16px;
   line-height: 52px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #9ec34b;
+  border: 2px dashed #e9e6e8;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -255,7 +255,7 @@ li {
   z-index: -1;
 }
 .btn-open:hover{
-  color: #9ec34b;
+  color: #000000be;
 }
 .btn-open:hover:after{
   height: 240%;
@@ -271,12 +271,12 @@ li {
   max-width: 180px;
   text-align: center;
   font-size: 16px;
-  color: #9ec34b;
+  color: #030303;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
   position: relative;
-  border: 2px solid #9ec34b;
+  border: 2px solid #050505;
   transition: .4s;
 }
 
@@ -325,7 +325,7 @@ li {
   font-weight: bold;
   padding: 12px 24px;
   border-radius: 4px;
-  background-image: linear-gradient(-90deg, #89eb75, #f1e753);
+  background-image: linear-gradient(-90deg, #0c0c0c, #e7e7dc);
   transition: .5s;
   background-size: 200%;
 }
